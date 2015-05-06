@@ -45,6 +45,7 @@
     <Compile Include="Criteria\EmptyCriterion.cs" />
     <Compile Include="Criteria\IdCriterion.cs" />
     <Compile Include="Criteria\IdListCriterion.cs" />
+    <Compile Include="Extensions\IQueryDescriptorExtensions.cs" />
     <Compile Include="ICommand.cs" />
     <Compile Include="ICommandBuilder.cs" />
     <Compile Include="ICommandContext.cs" />
@@ -58,9 +59,7 @@
     <Compile Include="QueryBase.cs" />
     <Compile Include="QueryDescriptor.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Extensions\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
